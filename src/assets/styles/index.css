@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 400;
+    display: block;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Medium.ttf);
+    font-weight: 500;
+    display: block;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Bold.ttf);
+    font-weight: 700;
+    display: block;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-ExtraBold.ttf);
+    font-weight: 800;
+    display: block;
+}
+
+body {
+    font-family: Manrope;
+    background-color: #040C18;
+    color: #FFFFFF;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+    .Container1170 {
+        @apply md:w-[81.25vw] mx-[auto]
+    }
+
+    .heading62 {
+        @apply md:text-[4.30555555556vw] md:leading-[5.20833333333vw] font-[800] md:tracking-[-0.27777777777vw]
+    }
+
+    .heading62 {
+        background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .text18 {
+        @apply md:text-[1.25vw] md:leading-[1.73611111111vw] font-[500]
+    }
+
+    .text20 {
+        @apply md:text-[1.38888888889vw] md:leading-[1.875vw] font-[400]
+    }
+    .text12 {
+        @apply md:text-[0.83333333333vw] md:leading-[1.04166666667vw] font-[500]
+    }
+
+}
