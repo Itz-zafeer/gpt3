@@ -45,6 +45,34 @@ body {
         @apply md:w-[81.25vw] mx-[auto]
     }
 
+    .Container1063 {
+        @apply md:w-[73.8194444444vw] mx-[auto]
+    }
+
+    .Container1160 {
+        @apply md:w-[80.5555555556vw] mx-[auto]
+    }
+
+    .heading24 {
+        @apply md:text-[1.66666666667vw] md:leading-[5.20833333333vw] font-[800] md:tracking-[-0.0625vw] relative after:content-[''] after:md:w-[2.63888888889vw] after:md:h-[0.20833333333vw] after:absolute after:top-0 after:left-0
+    }
+
+    .heading24::after {
+        background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    }
+
+    .heading34 {
+        @apply md:text-[2.36111111111vw] md:leading-[3.125vw] font-[800]
+    }
+
+    .heading34 {
+        background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
     .heading62 {
         @apply md:text-[4.30555555556vw] md:leading-[5.20833333333vw] font-[800] md:tracking-[-0.27777777777vw]
     }
@@ -57,15 +85,37 @@ body {
         text-fill-color: transparent;
     }
 
-    .text18 {
-        @apply md:text-[1.25vw] md:leading-[1.73611111111vw] font-[500]
-    }
-
-    .text20 {
-        @apply md:text-[1.38888888889vw] md:leading-[1.875vw] font-[400]
-    }
     .text12 {
         @apply md:text-[0.83333333333vw] md:leading-[1.04166666667vw] font-[500]
     }
 
+    .text14 {
+        @apply md:text-[0.97222222222vw] md:leading-[1.66666666667vw] font-[500] text-[#81AFDD]
+    }
+
+    .text16 {
+        @apply md:text-[1.11111111111vw] md:leading-[2.08333333333vw] font-[500] text-[#81AFDD]
+    }
+
+    .text18 {
+        @apply md:text-[1.25vw] md:leading-[1.73611111111vw] font-[500]
+    } 
+
+    .textEighteen::after {
+        background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .text20 {
+        @apply md:text-[1.38888888889vw] md:leading-[1.875vw] font-[400]
+    }
+
+
+
+}
+
+.Gpt3 {
+    background-color: rgb(4, 44, 84);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
