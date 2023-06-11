@@ -1,9 +1,9 @@
 import React from 'react'
-import Google from "../assets/images/brandlogos/google.png"
-import Slack from "../assets/images/brandlogos/slack.png"
-import Atlassian from "../assets/images/brandlogos/atlassian.png"
-import Dropbox from "../assets/images/brandlogos/dropbox.png"
-import Shopify from "../assets/images/brandlogos/shopify.png"
+import Google from "../../assets/images/brandlogos/google.png"
+import Slack from "../../assets/images/brandlogos/slack.png"
+import Atlassian from "../../assets/images/brandlogos/atlassian.png"
+import Dropbox from "../../assets/images/brandlogos/dropbox.png"
+import Shopify from "../../assets/images/brandlogos/shopify.png"
 const Brands = () => {
   return (
     <div className='flex justify-center items-center md:gap-x-[3.19444444444vw] md:pt-[8.47222222222vw]'>

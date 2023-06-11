@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroOverlays from './utils/HeroOverlays'
+import HeroOverlays from './HeroOverlays'
 import HeroContainer from './HeroContainer'
 const Hero = () => {
   return (

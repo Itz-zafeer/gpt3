@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../components/utils/Button'
-import Logo from '../components/utils/Logo'
-import Navbar from '../components/Navbar'
+import Button from '../utils/Button'
+import Logo from '../utils/Logo'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (

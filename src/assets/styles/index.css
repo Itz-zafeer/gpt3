@@ -41,6 +41,9 @@ body {
 }
 
 @layer components {
+    .Container1044 {
+        @apply md:w-[72.5vw] mx-[auto]
+    }
     .Container1170 {
         @apply md:w-[81.25vw] mx-[auto]
     }
@@ -101,16 +104,17 @@ body {
         @apply md:text-[1.25vw] md:leading-[1.73611111111vw] font-[500]
     } 
 
-    .textEighteen::after {
-        background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+     
 
 
     .text20 {
         @apply md:text-[1.38888888889vw] md:leading-[1.875vw] font-[400]
     }
-
+.footer__Btn{
+    @apply  cursor-pointer border-[1px] border-[#FFFFFF] mx-[auto] md:mt-[4.44444444444vw]
+    md:w-[15.1388888889vw] md:py-[1.21527777778vw] flex justify-center items-center
+   
+}
 
 
 }
@@ -119,3 +123,16 @@ body {
     background-color: rgb(4, 44, 84);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.register{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ 
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }

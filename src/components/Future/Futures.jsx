@@ -1,5 +1,4 @@
 import React from 'react'
-import Gpt3DesignHeading from './utils/Gpt3DesignHeading'
 const FuturesData = [
     {
         title: "Improving end distrusts instantly",
@@ -24,7 +23,7 @@ const Futures = () => {
         <div className='md:w-[40.9722222222vw] flex flex-col md:gap-y-[3.125vw] md:pt-[0.55555555555vw]'>
             {FuturesData.map((FuturesD , index) => (
                 <div className='flex justify-between' key={index}>
-                <Gpt3DesignHeading classes={" md:tracking-[-0.04166666666vw] font-[800] after:top-[-0.27777777777vw]   text18 md:w-[11.1111111111vw]"}  title={FuturesD.title}/>
+                <h5 className='heading24 md:tracking-[-0.04166666666vw] font-[800] after:top-[-0.27777777777vw]   text18 md:w-[11.1111111111vw]'>{FuturesD.title}</h5>
                 <p className='md:w-[23.1944444444vw] text14'>{FuturesD.text}</p>
 
             </div>

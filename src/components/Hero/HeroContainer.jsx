@@ -1,13 +1,12 @@
 import React from 'react'
-import Heading from '../components/utils/Heading'
-import Button from '../components/utils/Button'
-import ProfileIcons from '../assets/images/icons/profileIcons.svg'
-import HeroImage from './utils/HeroImage'
+import Button from '../utils/Button'
+import ProfileIcons from '../../assets/images/icons/profileIcons.svg'
+import HeroImage from './HeroImage'
 const HeroContainer = () => {
   return (
     <div className='Container1170 flex items-center justify-between relative  z-[2]'>
                     <div className='md:w-[43.75vw] md:pt-[13vw] flex flex-col md:gap-y-[1.29166666667vw]'>
-                        <Heading title="Let’s Build Something amazing with GPT-3 OpenAI" />
+                        <h1 className='heading62'>Let’s Build Something amazing with GPT-3 OpenAI</h1>
                         <p className='text20 text-[#81AFDD] md:w-[38.4722222222vw]'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
                         <div className='flex flex-col md:gap-y-[2.5vw]'>
                             <form action="" className='flex md:rounded-[0.34722222222vw] overflow-hidden'>
